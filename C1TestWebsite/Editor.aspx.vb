@@ -15,7 +15,7 @@ Partial Class Editor
             Dim myRibbonTab As New C1.Web.Wijmo.Controls.C1Editor.C1RibbonTabPage
             With myRibbonTab
                 .Name = "rtabRick"
-                .Text = "Rick's Tab"
+                .Text = "Rick's Test Tab"
             End With
             C1Editor1.RibbonUI.TabPages.Add(myRibbonTab)
 

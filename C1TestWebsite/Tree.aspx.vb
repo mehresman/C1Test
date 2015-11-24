@@ -51,16 +51,16 @@ Partial Class Tree
                 .DataSource = New BindingTools.HierarchicalDataSet(ds, "ID", "ParentID")
             End With
 
+            '11-24-15 MCE removed semicolons from the following lines to clear errors
+            tnb.DataMember = "System.Data.DataRowView"
+            tnb.TextField = "Text"
+            tnb.ValueField = "ID"
+            tnb.PopulateOnDemand = False
+            tnb.SelectAction = TreeNodeSelectAction.Select
+            TreeViewPS.DataBindings.Add(tnb)
 
-tnb.DataMember = "System.Data.DataRowView";
-tnb.TextField = "Text";
-tnb.ValueField = "ID";
-tnb.PopulateOnDemand = false;
-tnb.SelectAction = TreeNodeSelectAction.Select;
-TreeViewPS.DataBindings.Add(tnb);
-
-TreeViewPS.DataSource = new BindingTools.HierarchicalDataSet(dataSet, "ID", "ParentID");
-TreeViewPS.DataBind();
+            TreeViewPS.DataSource = New BindingTools.HierarchicalDataSet(DataSet, "ID", "ParentID")
+            TreeViewPS.DataBind()
 
         Catch ex As Exception
             Dim s As String

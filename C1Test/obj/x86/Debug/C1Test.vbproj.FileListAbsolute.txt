@@ -30,3 +30,6 @@ C:\Data\Testing\C1Test\C1Test\bin\Debug\C1.Win.C1Chart.2.xml
 C:\Data\Testing\C1Test\C1Test\bin\Debug\C1.C1Report.2.xml
 C:\Data\Testing\C1Test\C1Test\obj\x86\Debug\C1Test.vbprojResolveAssemblyReference.cache
 C:\Data\Testing\C1Test\C1Test\obj\x86\Debug\C1Test.frmWindowsAuthentication.resources
+T:\REhresman\C1Test\C1Test\obj\x86\Debug\C1Test.exe
+T:\REhresman\C1Test\C1Test\obj\x86\Debug\C1Test.xml
+T:\REhresman\C1Test\C1Test\obj\x86\Debug\C1Test.pdb

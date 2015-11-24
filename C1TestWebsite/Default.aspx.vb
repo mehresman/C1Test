@@ -26,6 +26,8 @@ Partial Class _Default
             '    '.DataBindings.Add(c1ChartBinding)
 
             '    ''.DataBind()
+            '11-24-15 MCE
+            ' Now is the time for all good people to learn how to use Git
 
 
 
