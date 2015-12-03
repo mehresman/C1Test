@@ -10,7 +10,9 @@
     <form id="form1" runat="server">
     <div>  
     This page was added when Git Desktop was not running.  Will this new file appear in the repository when I restart the Desktop app?
-    Yes, it did!  It appears that GitHub is the All Seeing, All Knowing of the folder to put in a repository.
+    Yes, it did!  It appears that GitHub is the All Seeing, All Knowing of the folder put in a repository.
+
+    More changes to the file.  Added 12/3/15.  Need to figure this stuff out.
     
     </div>
     </form>
